@@ -1,0 +1,11 @@
+/* Center the h1 element */
+h1{
+    text-align:center;
+}
+
+/* Set the font size of the paragraphs to 24px and use a yellow background. */
+p{
+    font-size: 24px;
+    background-color: yellow;
+}
+
