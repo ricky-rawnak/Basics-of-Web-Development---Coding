@@ -1,0 +1,128 @@
+body{
+    background-color: #ffffff;
+    /* display: table; */
+}
+.mainh{
+    color: blueviolet;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important ;
+    text-align: center;
+    font-size: 60px;
+}
+.mainh{
+    font-family: 'Times New Roman', Times, serif;
+}
+.red{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    display: inline-block;
+}
+.blue{
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+    display: inline-block;
+}
+.green{
+    height: 150px;
+    width: 150px;
+    background-color: green;
+    display: inline-block;
+}
+.yellow{
+    height: 150px;
+    width: 150px;
+    background-color: yellow;
+    display: inline-block;
+}
+.purple{
+    height: 150px;
+    width: 150px;
+    background-color: purple;
+    display: inline-block;
+}
+.orange{
+    height: 150px;
+    width: 150px;
+    background-color: orange;
+    display: inline-block;
+}
+.cyan{
+    height: 150px;
+    width: 150px;
+    background-color: cyan;
+    display: inline-block;
+}
+.pc{
+    font-size: 20px;
+    text-align: center;
+}
+.d{
+    display: inline-block;
+}
+.main-grid {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-evenly;
+}
+.main-flex {
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+    flex-wrap: wrap;
+}
+a{
+    display: block;
+    color:#ffffff;
+    background-color: brown;
+    text-align: center;
+    width: 150px;
+    /* height: 30px; */
+    padding: 4px;
+    margin: 0 auto;
+    margin-top: 10px;
+    text-decoration: none;
+}
+a:hover{
+    background-color: burlywood;
+    color: black;
+}
+a:focus{
+    background-color: seagreen;
+    color: bisque;
+}
+a:active{
+    border: 2px solid black;
+}
+.list-div{
+    display: inline-block;
+    width: 45%;
+}
+.olist{
+    list-style-type: upper-roman;
+}
+.ulist{
+    list-style-type: square;
+}
+.olist, .ulist{
+    list-style-image: url('img/lightning.png');
+}
+.atts{
+    margin: 5px;
+}
+.att-a{
+    padding-left: 22px;
+    text-decoration: none;
+}
+.att-a[href$=".org"]{
+    background: #ffff00;
+    color: black;
+}
+.att-a[href$=".edu"]{
+    background: #ff00ff;
+    color: black;
+}
+.att-a[href$=".gov"]{
+    background: #00ff00;
+    color: black;
+}
